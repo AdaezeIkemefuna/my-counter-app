@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(10, 2, 2);
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2{
+    margin: 50px 50px 0px 50px;
+    font-size: 3rem;
+}
+
+button{
+    width: 200px;
+    height: 75px;
+    padding: 10px 30px;
+    margin: 50px;
+    border: black;
+    border-radius: 4px;
+    outline: none;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+#increment-btn{
+    background-color: darkred;
+}
+
+#save-btn{
+    background-color: darkgreen;
+    margin-top: 0;
+}
+
+p{
+    font-size: 2.5rem;
+}
