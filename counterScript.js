@@ -20,4 +20,3 @@ function saveCount() {
     
 }
 
-let firstCard = 
