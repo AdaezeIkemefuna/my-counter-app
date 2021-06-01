@@ -19,4 +19,3 @@ function saveCount() {
     count = 0;
     
 }
-
